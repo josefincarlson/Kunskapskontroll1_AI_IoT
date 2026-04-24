@@ -1,0 +1,1378 @@
+[
+  {
+    "image": "bird1.jpg",
+    "file_name": "bird1.jpg",
+    "true_labels": [
+      "Bird",
+      "Parrot",
+      "Animal"
+    ],
+    "labels": [
+      {
+        "Name": "Animal",
+        "Confidence": 99.37,
+        "Parents": []
+      },
+      {
+        "Name": "Bird",
+        "Confidence": 99.37,
+        "Parents": [
+          "Animal"
+        ]
+      },
+      {
+        "Name": "Parrot",
+        "Confidence": 96.01,
+        "Parents": [
+          "Animal",
+          "Bird"
+        ]
+      },
+      {
+        "Name": "Parakeet",
+        "Confidence": 91.3,
+        "Parents": [
+          "Animal",
+          "Bird",
+          "Parrot"
+        ]
+      },
+      {
+        "Name": "Macaw",
+        "Confidence": 88.0,
+        "Parents": [
+          "Animal",
+          "Bird",
+          "Parrot"
+        ]
+      },
+      {
+        "Name": "Beak",
+        "Confidence": 76.88,
+        "Parents": [
+          "Animal",
+          "Bird"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "bird2.jpg",
+    "file_name": "bird2.jpg",
+    "true_labels": [
+      "Bird",
+      "Kingfisher",
+      "Animal"
+    ],
+    "labels": [
+      {
+        "Name": "Animal",
+        "Confidence": 99.98,
+        "Parents": []
+      },
+      {
+        "Name": "Beak",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal",
+          "Bird"
+        ]
+      },
+      {
+        "Name": "Bird",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal"
+        ]
+      },
+      {
+        "Name": "Bee Eater",
+        "Confidence": 99.94,
+        "Parents": [
+          "Animal",
+          "Bird"
+        ]
+      },
+      {
+        "Name": "Jay",
+        "Confidence": 95.84,
+        "Parents": [
+          "Animal",
+          "Bird"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "buildings1.jpg",
+    "file_name": "buildings1.jpg",
+    "true_labels": [
+      "Building",
+      "City",
+      "Skyline"
+    ],
+    "labels": [
+      {
+        "Name": "City",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Office Building",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building"
+        ]
+      },
+      {
+        "Name": "High Rise",
+        "Confidence": 99.99,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Condo",
+        "Confidence": 99.99,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "Housing"
+        ]
+      },
+      {
+        "Name": "Cityscape",
+        "Confidence": 99.97,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Metropolis",
+        "Confidence": 99.6,
+        "Parents": [
+          "City",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Tower",
+        "Confidence": 97.64,
+        "Parents": [
+          "Architecture",
+          "Building"
+        ]
+      },
+      {
+        "Name": "Skyscraper",
+        "Confidence": 94.05,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "High Rise",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Apartment Building",
+        "Confidence": 90.01,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "High Rise",
+          "Urban"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "buildings2.jpg",
+    "file_name": "buildings2.jpg",
+    "true_labels": [
+      "Building",
+      "City",
+      "Skyline"
+    ],
+    "labels": [
+      {
+        "Name": "City",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Building",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture"
+        ]
+      },
+      {
+        "Name": "Cityscape",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Metropolis",
+        "Confidence": 98.67,
+        "Parents": [
+          "City",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Tower",
+        "Confidence": 97.27,
+        "Parents": [
+          "Architecture",
+          "Building"
+        ]
+      },
+      {
+        "Name": "High Rise",
+        "Confidence": 91.61,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 89.72,
+        "Parents": []
+      }
+    ]
+  },
+  {
+    "image": "buildings3.jpg",
+    "file_name": "buildings3.jpg",
+    "true_labels": [
+      "Building",
+      "Apartment Building",
+      "Architecture"
+    ],
+    "labels": [
+      {
+        "Name": "City",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Apartment Building",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "High Rise",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Building",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture"
+        ]
+      },
+      {
+        "Name": "High Rise",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "City",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Condo",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "Housing"
+        ]
+      },
+      {
+        "Name": "Housing",
+        "Confidence": 100.0,
+        "Parents": [
+          "Architecture",
+          "Building"
+        ]
+      },
+      {
+        "Name": "Building Complex",
+        "Confidence": 89.2,
+        "Parents": [
+          "Architecture",
+          "Building"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "car1.jpg",
+    "file_name": "car1.jpg",
+    "true_labels": [
+      "Car",
+      "Vehicle",
+      "Sedan"
+    ],
+    "labels": [
+      {
+        "Name": "Machine",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Spoke",
+        "Confidence": 100.0,
+        "Parents": [
+          "Machine"
+        ]
+      },
+      {
+        "Name": "Alloy Wheel",
+        "Confidence": 99.99,
+        "Parents": [
+          "Car",
+          "Car Wheel",
+          "Machine",
+          "Spoke",
+          "Tire",
+          "Transportation",
+          "Vehicle",
+          "Wheel"
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 99.99,
+        "Parents": [
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "Name": "Car Wheel",
+        "Confidence": 99.99,
+        "Parents": [
+          "Car",
+          "Machine",
+          "Tire",
+          "Transportation",
+          "Vehicle",
+          "Wheel"
+        ]
+      },
+      {
+        "Name": "Tire",
+        "Confidence": 99.99,
+        "Parents": []
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 99.99,
+        "Parents": [
+          "Transportation"
+        ]
+      },
+      {
+        "Name": "Wheel",
+        "Confidence": 99.99,
+        "Parents": [
+          "Machine"
+        ]
+      },
+      {
+        "Name": "Coupe",
+        "Confidence": 99.99,
+        "Parents": [
+          "Car",
+          "Sports Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "Name": "Sports Car",
+        "Confidence": 99.99,
+        "Parents": [
+          "Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "car2.jpg",
+    "file_name": "car2.jpg",
+    "true_labels": [
+      "Car",
+      "Vehicle",
+      "Classic Car"
+    ],
+    "labels": [
+      {
+        "Name": "Chair",
+        "Confidence": 99.11,
+        "Parents": [
+          "Furniture"
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 98.89,
+        "Parents": [
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 98.89,
+        "Parents": [
+          "Transportation"
+        ]
+      },
+      {
+        "Name": "Wheel",
+        "Confidence": 97.45,
+        "Parents": [
+          "Machine"
+        ]
+      },
+      {
+        "Name": "Sedan",
+        "Confidence": 93.48,
+        "Parents": [
+          "Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "Name": "Tire",
+        "Confidence": 91.72,
+        "Parents": []
+      },
+      {
+        "Name": "Spoke",
+        "Confidence": 86.53,
+        "Parents": [
+          "Machine"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 86.3,
+        "Parents": []
+      },
+      {
+        "Name": "Alloy Wheel",
+        "Confidence": 84.52,
+        "Parents": [
+          "Car",
+          "Car Wheel",
+          "Machine",
+          "Spoke",
+          "Tire",
+          "Transportation",
+          "Vehicle",
+          "Wheel"
+        ]
+      },
+      {
+        "Name": "Coupe",
+        "Confidence": 82.91,
+        "Parents": [
+          "Car",
+          "Sports Car",
+          "Transportation",
+          "Vehicle"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "face1.jpg",
+    "file_name": "face1.jpg",
+    "true_labels": [
+      "Person",
+      "Face",
+      "Portrait"
+    ],
+    "labels": [
+      {
+        "Name": "Face",
+        "Confidence": 100.0,
+        "Parents": [
+          "Head",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Happy",
+        "Confidence": 100.0,
+        "Parents": [
+          "Face",
+          "Head",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Head",
+        "Confidence": 100.0,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Smile",
+        "Confidence": 100.0,
+        "Parents": [
+          "Face",
+          "Happy",
+          "Head",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Photography",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Portrait",
+        "Confidence": 100.0,
+        "Parents": [
+          "Face",
+          "Head",
+          "Person",
+          "Photography"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 99.82,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Female",
+        "Confidence": 99.82,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Woman",
+        "Confidence": 99.82,
+        "Parents": [
+          "Adult",
+          "Female",
+          "Person"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "face2.jpg",
+    "file_name": "face2.jpg",
+    "true_labels": [
+      "Person",
+      "Face",
+      "Portrait"
+    ],
+    "labels": [
+      {
+        "Name": "Face",
+        "Confidence": 100.0,
+        "Parents": [
+          "Head",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Head",
+        "Confidence": 100.0,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Photography",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Portrait",
+        "Confidence": 100.0,
+        "Parents": [
+          "Face",
+          "Head",
+          "Person",
+          "Photography"
+        ]
+      },
+      {
+        "Name": "Beard",
+        "Confidence": 99.95,
+        "Parents": [
+          "Face",
+          "Head",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 99.74,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Male",
+        "Confidence": 99.74,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Man",
+        "Confidence": 99.74,
+        "Parents": [
+          "Adult",
+          "Male",
+          "Person"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "kitten1.jpg",
+    "file_name": "kitten1.jpg",
+    "true_labels": [
+      "Cat",
+      "Kitten",
+      "Pet"
+    ],
+    "labels": [
+      {
+        "Name": "Animal",
+        "Confidence": 99.98,
+        "Parents": []
+      },
+      {
+        "Name": "Cat",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "Name": "Kitten",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal",
+          "Cat",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "Name": "Mammal",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal"
+        ]
+      },
+      {
+        "Name": "Pet",
+        "Confidence": 99.98,
+        "Parents": [
+          "Animal"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "kitten2.jpg",
+    "file_name": "kitten2.jpg",
+    "true_labels": [
+      "Cat",
+      "Pet"
+    ],
+    "labels": [
+      {
+        "Name": "Abyssinian",
+        "Confidence": 99.95,
+        "Parents": [
+          "Animal",
+          "Cat",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "Name": "Animal",
+        "Confidence": 99.95,
+        "Parents": []
+      },
+      {
+        "Name": "Cat",
+        "Confidence": 99.95,
+        "Parents": [
+          "Animal",
+          "Mammal",
+          "Pet"
+        ]
+      },
+      {
+        "Name": "Mammal",
+        "Confidence": 99.95,
+        "Parents": [
+          "Animal"
+        ]
+      },
+      {
+        "Name": "Pet",
+        "Confidence": 99.95,
+        "Parents": [
+          "Animal"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "landscape1.jpg",
+    "file_name": "landscape1.jpg",
+    "true_labels": [
+      "Landscape",
+      "Coast",
+      "Sea"
+    ],
+    "labels": [
+      {
+        "Name": "Boat",
+        "Confidence": 98.66,
+        "Parents": [
+          "Transportation",
+          "Vehicle"
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 98.66,
+        "Parents": []
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 98.66,
+        "Parents": [
+          "Transportation"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 95.54,
+        "Parents": []
+      },
+      {
+        "Name": "Landmark",
+        "Confidence": 89.9,
+        "Parents": []
+      },
+      {
+        "Name": "Cinque Terre",
+        "Confidence": 86.22,
+        "Parents": [
+          "Landmark"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "landscape2.jpg",
+    "file_name": "landscape2.jpg",
+    "true_labels": [
+      "Landscape",
+      "Rock Formation",
+      "Desert"
+    ],
+    "labels": [
+      {
+        "Name": "Cliff",
+        "Confidence": 100.0,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 100.0,
+        "Parents": [
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Archaeology",
+        "Confidence": 99.99,
+        "Parents": []
+      },
+      {
+        "Name": "Rock",
+        "Confidence": 85.96,
+        "Parents": []
+      }
+    ]
+  },
+  {
+    "image": "landscape3.jpg",
+    "file_name": "landscape3.jpg",
+    "true_labels": [
+      "Landscape",
+      "Field",
+      "Grass"
+    ],
+    "labels": [
+      {
+        "Name": "Field",
+        "Confidence": 99.99,
+        "Parents": []
+      },
+      {
+        "Name": "Grassland",
+        "Confidence": 99.99,
+        "Parents": [
+          "Field",
+          "Nature",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 99.99,
+        "Parents": [
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 99.99,
+        "Parents": []
+      },
+      {
+        "Name": "Horizon",
+        "Confidence": 99.68,
+        "Parents": [
+          "Nature",
+          "Outdoors",
+          "Sky"
+        ]
+      },
+      {
+        "Name": "Sky",
+        "Confidence": 99.68,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Grass",
+        "Confidence": 99.61,
+        "Parents": [
+          "Plant"
+        ]
+      },
+      {
+        "Name": "Countryside",
+        "Confidence": 99.3,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Meadow",
+        "Confidence": 99.3,
+        "Parents": [
+          "Countryside",
+          "Field",
+          "Grassland",
+          "Nature",
+          "Outdoors",
+          "Rural"
+        ]
+      },
+      {
+        "Name": "Scenery",
+        "Confidence": 97.6,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "market1.jpg",
+    "file_name": "market1.jpg",
+    "true_labels": [
+      "Market",
+      "Street",
+      "People"
+    ],
+    "labels": [
+      {
+        "Name": "Urban",
+        "Confidence": 99.9,
+        "Parents": []
+      },
+      {
+        "Name": "City",
+        "Confidence": 99.88,
+        "Parents": []
+      },
+      {
+        "Name": "Street",
+        "Confidence": 99.88,
+        "Parents": [
+          "City",
+          "Road",
+          "Urban"
+        ]
+      },
+      {
+        "Name": "Shelter",
+        "Confidence": 98.92,
+        "Parents": [
+          "Architecture",
+          "Building",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 98.92,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Male",
+        "Confidence": 98.92,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Man",
+        "Confidence": 98.92,
+        "Parents": [
+          "Adult",
+          "Male",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 98.92,
+        "Parents": []
+      },
+      {
+        "Name": "Handbag",
+        "Confidence": 97.27,
+        "Parents": [
+          "Accessories",
+          "Bag"
+        ]
+      },
+      {
+        "Name": "Jeans",
+        "Confidence": 96.3,
+        "Parents": [
+          "Clothing",
+          "Pants"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "market2.jpg",
+    "file_name": "market2.jpg",
+    "true_labels": [
+      "Market",
+      "Bazaar",
+      "People"
+    ],
+    "labels": [
+      {
+        "Name": "Coat",
+        "Confidence": 99.99,
+        "Parents": [
+          "Clothing"
+        ]
+      },
+      {
+        "Name": "Cup",
+        "Confidence": 99.65,
+        "Parents": []
+      },
+      {
+        "Name": "Shoe",
+        "Confidence": 99.49,
+        "Parents": [
+          "Clothing",
+          "Footwear"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 99.31,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Male",
+        "Confidence": 99.31,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Man",
+        "Confidence": 99.31,
+        "Parents": [
+          "Adult",
+          "Male",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 99.31,
+        "Parents": []
+      },
+      {
+        "Name": "City",
+        "Confidence": 98.76,
+        "Parents": []
+      },
+      {
+        "Name": "Hat",
+        "Confidence": 98.46,
+        "Parents": [
+          "Clothing"
+        ]
+      },
+      {
+        "Name": "Woman",
+        "Confidence": 98.39,
+        "Parents": [
+          "Adult",
+          "Female",
+          "Person"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "people1.jpg",
+    "file_name": "people1.jpg",
+    "true_labels": [
+      "People",
+      "Person",
+      "Crowd"
+    ],
+    "labels": [
+      {
+        "Name": "Backpack",
+        "Confidence": 99.85,
+        "Parents": [
+          "Bag"
+        ]
+      },
+      {
+        "Name": "Shoe",
+        "Confidence": 99.84,
+        "Parents": [
+          "Clothing",
+          "Footwear"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 99.47,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Female",
+        "Confidence": 99.47,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 99.47,
+        "Parents": []
+      },
+      {
+        "Name": "Woman",
+        "Confidence": 99.47,
+        "Parents": [
+          "Adult",
+          "Female",
+          "Person"
+        ]
+      },
+      {
+        "Name": "Skirt",
+        "Confidence": 99.43,
+        "Parents": [
+          "Clothing"
+        ]
+      },
+      {
+        "Name": "People",
+        "Confidence": 99.15,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Handbag",
+        "Confidence": 98.78,
+        "Parents": [
+          "Accessories",
+          "Bag"
+        ]
+      },
+      {
+        "Name": "Man",
+        "Confidence": 98.74,
+        "Parents": [
+          "Adult",
+          "Male",
+          "Person"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "people2.jpg",
+    "file_name": "people2.jpg",
+    "true_labels": [
+      "People",
+      "Person",
+      "Crowd"
+    ],
+    "labels": [
+      {
+        "Name": "Pedestrian",
+        "Confidence": 99.99,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 99.99,
+        "Parents": []
+      },
+      {
+        "Name": "People",
+        "Confidence": 99.82,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Shoe",
+        "Confidence": 99.65,
+        "Parents": [
+          "Clothing",
+          "Footwear"
+        ]
+      },
+      {
+        "Name": "Handbag",
+        "Confidence": 99.35,
+        "Parents": [
+          "Accessories",
+          "Bag"
+        ]
+      },
+      {
+        "Name": "Glove",
+        "Confidence": 98.57,
+        "Parents": [
+          "Clothing"
+        ]
+      },
+      {
+        "Name": "Glasses",
+        "Confidence": 98.52,
+        "Parents": [
+          "Accessories"
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 98.5,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Male",
+        "Confidence": 98.5,
+        "Parents": [
+          "Person"
+        ]
+      },
+      {
+        "Name": "Man",
+        "Confidence": 98.5,
+        "Parents": [
+          "Adult",
+          "Male",
+          "Person"
+        ]
+      }
+    ]
+  },
+  {
+    "image": "sky1.jpg",
+    "file_name": "sky1.jpg",
+    "true_labels": [
+      "Sky",
+      "Cloud",
+      "Outdoors"
+    ],
+    "labels": [
+      {
+        "Name": "Nature",
+        "Confidence": 100.0,
+        "Parents": [
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 100.0,
+        "Parents": []
+      },
+      {
+        "Name": "Sky",
+        "Confidence": 100.0,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      },
+      {
+        "Name": "Cloud",
+        "Confidence": 100.0,
+        "Parents": [
+          "Nature",
+          "Outdoors",
+          "Sky"
+        ]
+      },
+      {
+        "Name": "Azure Sky",
+        "Confidence": 100.0,
+        "Parents": [
+          "Nature",
+          "Outdoors",
+          "Sky"
+        ]
+      },
+      {
+        "Name": "Cumulus",
+        "Confidence": 99.95,
+        "Parents": [
+          "Cloud",
+          "Nature",
+          "Outdoors",
+          "Sky",
+          "Weather"
+        ]
+      },
+      {
+        "Name": "Weather",
+        "Confidence": 99.95,
+        "Parents": [
+          "Nature",
+          "Outdoors"
+        ]
+      }
+    ]
+  }
+]
